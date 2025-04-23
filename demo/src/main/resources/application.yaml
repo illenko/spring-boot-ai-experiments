@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+#    ollama:
+#      base-url: http://localhost:11434
+#      chat:
+#        options:
+#          model: llama3.2
