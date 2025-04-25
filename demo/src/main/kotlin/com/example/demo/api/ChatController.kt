@@ -1,7 +1,7 @@
 package com.example.demo.api
 
-import com.example.demo.service.ChatService
 import com.example.demo.api.model.ChatRequest
+import com.example.demo.service.ChatService
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
