@@ -2,6 +2,7 @@ package com.example.demo.config
 
 import org.springframework.ai.chat.client.ChatClient
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor
+import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor
 import org.springframework.ai.chat.memory.ChatMemory
 import org.springframework.ai.chat.memory.InMemoryChatMemory
 import org.springframework.beans.factory.annotation.Autowired
@@ -26,6 +27,7 @@ class ChatClientConfig {
                 If you can't answer the question, say "Sorry, I don't know."
                 """.trimIndent(),
             ).defaultAdvisors(MessageChatMemoryAdvisor(chatMemory))
+            .defaultAdvisors(SimpleLoggerAdvisor())
             .build()
 
     @Bean
