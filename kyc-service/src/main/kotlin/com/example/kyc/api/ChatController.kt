@@ -14,5 +14,5 @@ class ChatController(
     @PostMapping("/search")
     fun search(
         @RequestBody request: SearchRequest,
-    ): Flux<String> = searchService.search(request = request)
+    ): String? = searchService.search(request = request)
 }
