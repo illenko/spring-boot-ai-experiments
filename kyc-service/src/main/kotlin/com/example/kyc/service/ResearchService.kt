@@ -17,7 +17,7 @@ class ResearchService(
             .prompt(
                 PromptTemplate(
                     """
-                    Find information about legal entity with EDRPOU {edrpou}.
+                    Find information about legal entity with EDRPOU using https://youcontrol.com.ua/catalog/company_details/{edrpou}
                     """.trimIndent(),
                 ).create(
                     mapOf(
@@ -34,7 +34,7 @@ class ResearchService(
             .prompt(
                 PromptTemplate(
                     """
-                    Find information about website using https://brave.com/search?q={url}.
+                    Find information about website {url} by opening it.
                     """.trimIndent(),
                 ).create(
                     mapOf(

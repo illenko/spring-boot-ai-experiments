@@ -18,7 +18,7 @@ class ChatClientConfig {
         chatClientBuilder
             .defaultSystem(
                 """
-                Use brave search api to access Opendatabot and other websites.
+                Use brave search api to access YouControl and other websites.
                 If you can't find something - set not found for this value.
                 All answers should be in Ukrainian.
                 """.trimIndent(),
