@@ -25,7 +25,6 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.springframework.ai:spring-ai-starter-model-openai")
-    implementation("org.springframework.ai:spring-ai-starter-mcp-client")
     implementation(kotlin("stdlib-jdk8"))
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
