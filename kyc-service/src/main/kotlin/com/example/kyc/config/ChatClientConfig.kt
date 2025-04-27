@@ -18,10 +18,9 @@ class ChatClientConfig {
         chatClientBuilder
             .defaultSystem(
                 """
-                Поводь себе як чат для пошуку даних про юридичну особу.
-                use brave search api to access opendatabot website.
-                Не говори нічого про себе.
-                Якщо ти не можеш щось знайти, відповідай "інформація не знайдена".
+                Use brave search api to access Opendatabot and other websites.
+                If you can't find something - set not found for this value.
+                All answers should be in Ukrainian.
                 """.trimIndent(),
             )
             .defaultAdvisors(SimpleLoggerAdvisor())
