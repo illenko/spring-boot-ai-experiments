@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: kyc
+
+  ai:
+    openai:
+      api-key: ${GROQ_API_KEY}
+      base-url: https://api.groq.com/openai
+
+logging.level.org.springframework.ai: DEBUG
