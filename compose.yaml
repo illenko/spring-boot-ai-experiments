@@ -6,3 +6,12 @@ services:
 #      - ./ollama:/root/.ollama
 #    ports:
 #      - "11434:11434"
+
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=postgres'
+      - 'POSTGRES_PASSWORD=postgres'
+      - 'POSTGRES_USER=postgres'
+    ports:
+      - '5432:5432'

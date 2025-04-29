@@ -1,0 +1,281 @@
+[
+  {
+    "merchantName": "Rozetka.ua",
+    "merchantCategory": "Electronics & General Goods",
+    "gateway": "liqpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.062
+  },
+  {
+    "merchantName": "Rozetka.ua",
+    "merchantCategory": "Electronics & General Goods",
+    "gateway": "wayforpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "google_pay",
+    "conversionRate": 0.058
+  },
+  {
+    "merchantName": "Prom.ua",
+    "merchantCategory": "Marketplace",
+    "gateway": "portmone",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "debit_card",
+    "conversionRate": 0.049
+  },
+  {
+    "merchantName": "Allo.ua",
+    "merchantCategory": "Electronics & Appliances",
+    "gateway": "ipay.ua",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.055
+  },
+  {
+    "merchantName": "Comfy.ua",
+    "merchantCategory": "Electronics & Home Appliances",
+    "gateway": "liqpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "apple_pay",
+    "conversionRate": 0.068
+  },
+  {
+    "merchantName": "Foxtrot.ua",
+    "merchantCategory": "Electronics & Home Appliances",
+    "gateway": "privatbank",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.051
+  },
+  {
+    "merchantName": "Eldorado.ua",
+    "merchantCategory": "Electronics & Appliances",
+    "gateway": "wayforpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "paypal",
+    "conversionRate": 0.047
+  },
+  {
+    "merchantName": "EVA.UA",
+    "merchantCategory": "Beauty & Health",
+    "gateway": "portmone",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.071
+  },
+  {
+    "merchantName": "Makeup.ua",
+    "merchantCategory": "Beauty Products",
+    "gateway": "ipay.ua",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "google_pay",
+    "conversionRate": 0.063
+  },
+  {
+    "merchantName": "Yakaboo.ua",
+    "merchantCategory": "Books",
+    "gateway": "liqpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.075
+  },
+  {
+    "merchantName": "Modivo.ua",
+    "merchantCategory": "Fashion",
+    "gateway": "wayforpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "apple_pay",
+    "conversionRate": 0.059
+  },
+  {
+    "merchantName": "Answear.ua",
+    "merchantCategory": "Fashion",
+    "gateway": "portmone",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.052
+  },
+  {
+    "merchantName": "Telemart.ua",
+    "merchantCategory": "Electronics",
+    "gateway": "ipay.ua",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "debit_card",
+    "conversionRate": 0.048
+  },
+  {
+    "merchantName": "Intertop.ua",
+    "merchantCategory": "Shoes & Accessories",
+    "gateway": "liqpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.066
+  },
+  {
+    "merchantName": "Megasport.ua",
+    "merchantCategory": "Sports Goods",
+    "gateway": "wayforpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "paypal",
+    "conversionRate": 0.054
+  },
+  {
+    "merchantName": "Epicentrk.ua",
+    "merchantCategory": "Home Improvement & Garden",
+    "gateway": "portmone",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.045
+  },
+  {
+    "merchantName": "TechnoWorld UA",
+    "merchantCategory": "Electronics",
+    "gateway": "liqpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.058
+  },
+  {
+    "merchantName": "TechnoWorld UA",
+    "merchantCategory": "Electronics",
+    "gateway": "wayforpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.063
+  },
+  {
+    "merchantName": "TechnoWorld UA",
+    "merchantCategory": "Electronics",
+    "gateway": "google_pay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "google_pay",
+    "conversionRate": 0.061
+  },
+  {
+    "merchantName": "Fashionista Boutique",
+    "merchantCategory": "Apparel",
+    "gateway": "portmone",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "debit_card",
+    "conversionRate": 0.042
+  },
+  {
+    "merchantName": "Fashionista Boutique",
+    "merchantCategory": "Apparel",
+    "gateway": "ipay.ua",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.047
+  },
+  {
+    "merchantName": "Fashionista Boutique",
+    "merchantCategory": "Apparel",
+    "gateway": "liqpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "paypal",
+    "conversionRate": 0.045
+  },
+  {
+    "merchantName": "Home Comfort Store",
+    "merchantCategory": "Home Goods",
+    "gateway": "wayforpay",
+    "pciDssCompliance": false,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.035
+  },
+  {
+    "merchantName": "Home Comfort Store",
+    "merchantCategory": "Home Goods",
+    "gateway": "privatbank",
+    "pciDssCompliance": false,
+    "mode": "online",
+    "method": "debit_card",
+    "conversionRate": 0.031
+  },
+  {
+    "merchantName": "Home Comfort Store",
+    "merchantCategory": "Home Goods",
+    "gateway": "apple_pay",
+    "pciDssCompliance": false,
+    "mode": "online",
+    "method": "apple_pay",
+    "conversionRate": 0.038
+  },
+  {
+    "merchantName": "Book Paradise UA",
+    "merchantCategory": "Books",
+    "gateway": "ipay.ua",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.070
+  },
+  {
+    "merchantName": "Book Paradise UA",
+    "merchantCategory": "Books",
+    "gateway": "portmone",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "paypal",
+    "conversionRate": 0.065
+  },
+  {
+    "merchantName": "Book Paradise UA",
+    "merchantCategory": "Books",
+    "gateway": "liqpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.073
+  },
+  {
+    "merchantName": "SportZone Kharkiv",
+    "merchantCategory": "Sports Goods",
+    "gateway": "wayforpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.049
+  },
+  {
+    "merchantName": "SportZone Kharkiv",
+    "merchantCategory": "Sports Goods",
+    "gateway": "liqpay",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "google_pay",
+    "conversionRate": 0.052
+  },
+  {
+    "merchantName": "SportZone Kharkiv",
+    "merchantCategory": "Sports Goods",
+    "gateway": "ipay.ua",
+    "pciDssCompliance": true,
+    "mode": "online",
+    "method": "credit_card",
+    "conversionRate": 0.055
+  }
+]

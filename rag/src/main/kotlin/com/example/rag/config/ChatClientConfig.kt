@@ -13,9 +13,6 @@ class ChatClientConfig {
         @Autowired chatClientBuilder: ChatClient.Builder,
     ): ChatClient =
         chatClientBuilder
-            .defaultSystem(
-                """
-                """.trimIndent(),
-            ).defaultAdvisors(SimpleLoggerAdvisor())
+            .defaultAdvisors(SimpleLoggerAdvisor())
             .build()
 }

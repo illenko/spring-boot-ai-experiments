@@ -1,10 +1,19 @@
 spring:
   application:
     name: kyc
-
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
   ai:
     openai:
       api-key: ${GROQ_API_KEY}
       base-url: https://api.groq.com/openai
+    vectorstore:
+      pgvector:
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 1536
+        max-document-batch-size: 10000 # Optional: Maximum number of documents per batch
 
 logging.level.org.springframework.ai: DEBUG

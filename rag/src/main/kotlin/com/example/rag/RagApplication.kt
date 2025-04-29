@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class KycApplication
+class RagApplication
 
 fun main(args: Array<String>) {
-	runApplication<KycApplication>(*args)
+	runApplication<RagApplication>(*args)
 }
